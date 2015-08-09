@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/enisgayretli'
   s.platform     = :ios, '8.0'
   s.requires_arc = true
+  s.dependency 'PureLayout', '~>2.0'
   s.source_files = 'EGFloatingTextField/EGFloatingTextField/*.swift'
 end
 
