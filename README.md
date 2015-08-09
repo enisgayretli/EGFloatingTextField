@@ -18,6 +18,10 @@ pod "EGFloatingTextField"
 ```
 
 ## Setup
+**Import dependency**
+```
+import PureLayout
+```
 **Initialize the textfield and add it as a subview**
 ```
 let emailLabel = EGFloatingTextField(frame: CGRectMake(8, 64, CGRectGetWidth(self.view.bounds) - 16, 48))
@@ -72,11 +76,3 @@ Enis Gayretli, enisgayretli@gmail.com
 ## License
 
 EGFloatingTextField is available under the MIT license. See the LICENSE file for more info.
-
-
-
-
-
-
-
-
