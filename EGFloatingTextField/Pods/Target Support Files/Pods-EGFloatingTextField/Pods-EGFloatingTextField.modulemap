@@ -1,0 +1,6 @@
+framework module Pods_EGFloatingTextField {
+  umbrella header "Pods-EGFloatingTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
