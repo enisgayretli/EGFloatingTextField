@@ -7,13 +7,17 @@ An implemantation of "Float Label Pattern" of Material Design in Swift programmi
 
 ![alt tag](https://raw.github.com/enisgayretli/EGFloatingTextField/master/EGFloatingTextField.gif)
 
-## Using this in your project
+## Usage
+
+EGFloatingTextField is available as [CocoaPods](http://cocoapods.org). To install
+it, simply add the following lines to your Podfile:
+
+```ruby
+use_frameworks!
+pod "EGFloatingTextField"
 ```
-Add vendors, PureLayout at  "https://github.com/smileyborg/PureLayout" and UIKit+Material at "https://github.com/nklizhe/UIKit-Material".
-```
-```
-Add EGFloatingTextField.swift into your project.
-```
+
+## Setup
 **Initialize the textfield and add it as a subview**
 ```
 let emailLabel = EGFloatingTextField(frame: CGRectMake(8, 64, CGRectGetWidth(self.view.bounds) - 16, 48))
@@ -61,9 +65,13 @@ func commonInit(){
 }
 ```
 
-# License
-MIT License
+## Author
 
+Enis Gayretli, enisgayretli@gmail.com
+
+## License
+
+EGFloatingTextField is available under the MIT license. See the LICENSE file for more info.
 
 
 
