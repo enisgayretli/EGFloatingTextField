@@ -1,5 +1,6 @@
 # EGFloatingTextField
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/EGFloatingTextField.svg?style=flat)](http://cocoapods.org/pods/EGFloatingTextField)
 [![License](https://img.shields.io/cocoapods/l/EGFloatingTextField.svg?style=flat)](http://cocoapods.org/pods/EGFloatingTextField)
 [![Platform](https://img.shields.io/cocoapods/p/EGFloatingTextField.svg?style=flat)](http://cocoapods.org/pods/EGFloatingTextField)
